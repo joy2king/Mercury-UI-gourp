@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script src="/libs/angular/angular.js"></script>
+</head>
+<body ng-app="main" ng-controller="CCtrl as c">
+<input ng-model="newUser.firstName">
+<input ng-model="newUser.lastName">
+<button ng-click="c.newUser(newUser)">new user</button>
+<script src="/app.js"></script>
+</body>
+
+</html>
